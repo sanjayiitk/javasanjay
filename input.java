@@ -4,6 +4,7 @@ class input
 	public static void main(String[] args)
 	{
 		Scanner x= new Scanner(System.in);
+		
 		System.out.print("Enter your name: ");
 		String s=x.nextLine();
 		
@@ -18,4 +19,4 @@ class input
 		System.out.println(b);
 	}
 }	
-		
+		 
