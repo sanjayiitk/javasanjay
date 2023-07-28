@@ -1,4 +1,4 @@
-public class box2 {
+class box2 {
     int l = 5;
     int b = 10;
     int h = 15;
