@@ -15,16 +15,16 @@ class sum {
 
 class sub extends sum 
 {
-  int x, y, z;
+  int  z;
 
   sub(int x, int y, int z)
   {
-    super(x, y);
+    super(x,y);
     this.z = z;
   }
 
   void display() {
-    System.out.println("subtraction is " + ((x + y) - z));
+    System.out.println("subtraction is " + ((y+z)-x));
   }
 }
 
