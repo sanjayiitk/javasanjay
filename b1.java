@@ -1,4 +1,4 @@
-class a
+class A  // method overloading 
 { 
 void display()
 	{
@@ -8,7 +8,7 @@ void display(int x)
 	{
 	System.out.println("second  method"+x);
 	}
-	void display(int x)
+	void display(int x,int y)
 	{
 	System.out.println("third  method"+(x+y));
 	}
@@ -25,10 +25,11 @@ class b1
 {
 	public static void main(String[] args)
 	{
-		a.display();
-		a.display(10);
-		a.display(10,10);
-		double x=a.display(10.0,20.0);
+		 A a1=new A();
+		a1.display();
+		a1.display(10);
+		a1.display(10,10);
+		double x=a1.display(10.0,20.0);
 		System.out.println(x);
 	}
 }
