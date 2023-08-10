@@ -3,10 +3,11 @@ class sum {
 
   sum(int x, int y) {
     this.x = x;
-    this.y = y;0
+    this.y = y;
   }
 
-  void display()
+  final void display()             //finoverride.java:26: error: display() in sub cannot override display() in sum void display()
+ 
   {
 	  
   System.out.println("sum is :"+(x+y));
@@ -28,7 +29,7 @@ class sub extends sum
   }
 }
 
-class override {
+class finoverride {
   public static void main(String[] args) {
     sum s1 = new sum(10, 20);
     s1.display();
