@@ -1,10 +1,11 @@
-import mypack.*;
+import mypack.HP;
+import mypack.Dell;
 class geeks
 {
 	public static void main(String[] args)
 	{
 		HP obj =new HP();
-	    Dell obj1= new Dell();
+	   Dell obj1= new Dell();
 		obj.display();
 		obj1.disp();
 	}
